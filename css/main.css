@@ -40,13 +40,16 @@ html {
 body {
     margin: 0;
     padding: 0;
+    height: 100vh;
+    background-image: url(../images/placeholder.jpg);
+    background-size: cover;
 }
 
 header {
     text-align: center;
     margin: 0 auto 0;
     background-color: coral;
-    height: 100%;
+    height: 75px;
 }
 
 .logo {  
@@ -171,14 +174,14 @@ footer a{
     width: 100%;
 }
 
-.social-container {
-    margin: 0 auto 0;
+.socialcontainer {
+    margin: 0 calc((100% - 196px) / 2);
     padding: 0;
 }
 
 .social {
     width: 45px;
-    margin: 2%;
+    margin-top: 10px;
     display: inline-block;
 }
 
