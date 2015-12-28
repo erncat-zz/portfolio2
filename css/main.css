@@ -48,7 +48,7 @@ body {
 header {
     text-align: center;
     margin: 0 auto 0;
-    background-color: coral;
+    background-color: gray;
     height: 75px;
 }
 
@@ -127,7 +127,9 @@ header {
 
 nav {
     text-align: center;
-    margin-top: 2em;
+    padding-bottom: 2em;
+    padding-top: 2em;
+    background-color: gray; 
 }
     
 nav ul {
@@ -161,7 +163,7 @@ nav a:active {
 
 footer {
     overflow: hidden;
-    background-color: coral;
+    background-color: gray;
     width: 100%;
     bottom: 0;
     position: absolute;
